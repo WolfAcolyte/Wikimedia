@@ -1,0 +1,55 @@
+html, body{
+    margin: 0;
+    padding: 20px 7%;
+    height: 100%;
+}
+.intro:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.intro >p{
+    text-align: justify;
+    font-size: 23px;
+    padding: 4px;
+}
+.welcome{
+    font-size: 23px;
+    float: right;
+}
+.gridWrapper{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.icon{
+    width: 135px;
+    height: 135px;
+    padding: 2%;
+    
+}
+.icon img{
+    width: 100%;
+    height: 100%;
+    border: none;
+    vertical-align: middle;
+    
+}
+footer >p{
+    border-top: black 1px solid;
+    padding-top: 9px;
+    font-size: 17px;
+    text-align: center;
+}
+.tags{
+    border-top: black 1px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.tags >a{
+    padding: 0 10px;
+    
+}
